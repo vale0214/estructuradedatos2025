@@ -1,0 +1,14 @@
+C:\Users\vaito\OneDrive\Documents\proyectos_estructuradedatos\tarea\bin\Debug\net9.0\tarea.exe
+C:\Users\vaito\OneDrive\Documents\proyectos_estructuradedatos\tarea\bin\Debug\net9.0\tarea.deps.json
+C:\Users\vaito\OneDrive\Documents\proyectos_estructuradedatos\tarea\bin\Debug\net9.0\tarea.runtimeconfig.json
+C:\Users\vaito\OneDrive\Documents\proyectos_estructuradedatos\tarea\bin\Debug\net9.0\tarea.dll
+C:\Users\vaito\OneDrive\Documents\proyectos_estructuradedatos\tarea\bin\Debug\net9.0\tarea.pdb
+C:\Users\vaito\OneDrive\Documents\proyectos_estructuradedatos\tarea\obj\Debug\net9.0\tarea.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vaito\OneDrive\Documents\proyectos_estructuradedatos\tarea\obj\Debug\net9.0\tarea.AssemblyInfoInputs.cache
+C:\Users\vaito\OneDrive\Documents\proyectos_estructuradedatos\tarea\obj\Debug\net9.0\tarea.AssemblyInfo.cs
+C:\Users\vaito\OneDrive\Documents\proyectos_estructuradedatos\tarea\obj\Debug\net9.0\tarea.csproj.CoreCompileInputs.cache
+C:\Users\vaito\OneDrive\Documents\proyectos_estructuradedatos\tarea\obj\Debug\net9.0\tarea.dll
+C:\Users\vaito\OneDrive\Documents\proyectos_estructuradedatos\tarea\obj\Debug\net9.0\refint\tarea.dll
+C:\Users\vaito\OneDrive\Documents\proyectos_estructuradedatos\tarea\obj\Debug\net9.0\tarea.pdb
+C:\Users\vaito\OneDrive\Documents\proyectos_estructuradedatos\tarea\obj\Debug\net9.0\tarea.genruntimeconfig.cache
+C:\Users\vaito\OneDrive\Documents\proyectos_estructuradedatos\tarea\obj\Debug\net9.0\ref\tarea.dll
