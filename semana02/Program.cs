@@ -1,94 +1,58 @@
-﻿using System;
-
-namespace FigurasGeometricas
+﻿# Crear contenido del código C# con comentarios explicativos
+codigo_csharp = """
+// Clase para representar un Círculo
+public class Circulo
 {
-    // Clase que representa un círculo
-    public class Circulo
+    // Variable privada que almacena el radio del círculo
+    private double radio;
+
+    // Constructor que inicializa el radio
+    public Circulo(double radio)
     {
-        // Campo privado que almacena el radio del círculo
-        private double radio;
-
-        // Propiedad pública para acceder y validar el radio
-        public double Radio
-        {
-            get { return radio; }
-            set
-            {
-                if (value >= 0)
-                    radio = value;
-            }
-        }
-
-        // Constructor que recibe el radio como argumento
-        public Circulo(double radio)
-        {
-            Radio = radio;
-        }
-
-        // CalcularArea es una función que devuelve un valor double,
-        // se utiliza para calcular el área de un círculo
-        public double CalcularArea()
-        {
-            return Math.PI * radio * radio;
-        }
-
-        // CalcularPerimetro devuelve el perímetro del círculo (circunferencia)
-        public double CalcularPerimetro()
-        {
-            return 2 * Math.PI * radio;
-        }
+        this.radio = radio;
     }
 
-    // Clase que representa un cuadrado
-    public class Cuadrado
+    // Método que calcula el área del círculo
+    // CalcularArea devuelve un valor double, se utiliza para calcular el área de un círculo
+    public double CalcularArea()
     {
-        // Campo privado que almacena la longitud del lado
-        private double lado;
-
-        // Propiedad pública para acceder y validar el lado
-        public double Lado
-        {
-            get { return lado; }
-            set
-            {
-                if (value >= 0)
-                    lado = value;
-            }
-        }
-
-        // Constructor que recibe el lado como argumento
-        public Cuadrado(double lado)
-        {
-            Lado = lado;
-        }
-
-        // CalcularArea devuelve el área del cuadrado
-        public double CalcularArea()
-        {
-            return lado * lado;
-        }
-
-        // CalcularPerimetro devuelve el perímetro del cuadrado
-        public double CalcularPerimetro()
-        {
-            return 4 * lado;
-        }
+        return Math.PI * radio * radio;
     }
 
-    // Clase principal para probar las figuras
-    class Program
+    // Método que calcula el perímetro del círculo
+    // CalcularPerimetro devuelve un valor double, se utiliza para calcular la circunferencia del círculo
+    public double CalcularPerimetro()
     {
-        static void Main(string[] args)
-        {
-            // Crear un círculo con radio 5
-            Circulo miCirculo = new Circulo(5);
-            Console.WriteLine("Área del círculo: " + miCirculo.CalcularArea());
-            Console.WriteLine("Perímetro del círculo: " + miCirculo.CalcularPerimetro());
-
-            // Crear un cuadrado con lado 4
-            Cuadrado miCuadrado = new Cuadrado(4);
-            Console.WriteLine("Área del cuadrado: " + miCuadrado.CalcularArea());
-            Console.WriteLine("Perímetro del cuadrado: " + miCuadrado.CalcularPerimetro());
-        }
+        return 2 * Math.PI * radio;
     }
 }
+
+// Clase para representar un Rectángulo
+public class Rectangulo
+{
+    // Variables privadas que almacenan la base y la altura del rectángulo
+    private double baseRect;
+    private double altura;
+
+    // Constructor que inicializa base y altura
+    public Rectangulo(double baseRect, double altura)
+    {
+        this.baseRect = baseRect;
+        this.altura = altura;
+    }
+
+    // Método que calcula el área del rectángulo
+    // CalcularArea devuelve un valor double, multiplicando base por altura
+    public double CalcularArea()
+    {
+        return baseRect * altura;
+    }
+
+    // Método que calcula el perímetro del rectángulo
+    // CalcularPerimetro devuelve un valor double, sumando el doble de la base y el doble de la altura
+    public double CalcularPerimetro()
+    {
+        return 2 * (baseRect + altura);
+    }
+}
+"""
